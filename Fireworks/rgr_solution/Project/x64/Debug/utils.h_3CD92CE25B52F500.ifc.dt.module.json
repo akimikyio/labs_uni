@@ -1,0 +1,22 @@
+{
+    "version": 1,
+    "revision": 0,
+    "rules": [
+        {
+            "primary-output": "Project\\x64\\Debug\\utils.obj",
+            "outputs": [
+                "Project\\x64\\Debug\\utils.h_3CD92CE25B52F500.ifc.dt.module.json",
+                "Project\\x64\\Debug\\utils.h_3CD92CE25B52F500.ifc.dt.d.json",
+                "Project\\x64\\Debug\\utils.h.ifc"
+            ],
+            "provides": [
+                {
+                    "logical-name": "C:\\Users\\zilsg\\Yandex.Disk\\Учёба\\Информатика\\InformaticsCodebases\\CGW\\Project\\utils.h",
+                    "source-path": "c:\\users\\zilsg\\yandex.disk\\учёба\\информатика\\informaticscodebases\\cgw\\project\\utils.h",
+                    "lookup-method": "absolute"
+                }
+            ],
+            "requires": []
+        }
+    ]
+}
