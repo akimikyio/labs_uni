@@ -1,0 +1,36 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\\u0423\u0447\u0451\u0431\u0430\\\u043F\u0440\u043E\u0435\u043A\u0442\u044B c\u002B\u002B\\Project1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{372318C7-8D68-4CEC-8A63-0FFBE2C464D3}|Project1.vcxproj|D:\\\u0423\u0447\u0451\u0431\u0430\\\u043F\u0440\u043E\u0435\u043A\u0442\u044B c\u002B\u002B\\RGR\\RGR.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "RGR.cpp",
+              "DocumentMoniker": "D:\\\u0423\u0447\u0451\u0431\u0430\\\u043F\u0440\u043E\u0435\u043A\u0442\u044B c\u002B\u002B\\RGR\\RGR.cpp",
+              "RelativeDocumentMoniker": "..\\RGR\\RGR.cpp",
+              "ToolTip": "D:\\\u0423\u0447\u0451\u0431\u0430\\\u043F\u0440\u043E\u0435\u043A\u0442\u044B c\u002B\u002B\\RGR\\RGR.cpp",
+              "RelativeToolTip": "..\\RGR\\RGR.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-03-01T06:21:58.619Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
