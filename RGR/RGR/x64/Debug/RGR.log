@@ -1,0 +1,5 @@
+﻿  glut5.cpp
+D:\My projects\RGR\RGR\glut5.cpp(17,24): warning C4305: инициализация: усечение из "double" в "float"
+D:\My projects\RGR\RGR\glut5.cpp(43,34): warning C4305: аргумент: усечение из "double" в "float"
+D:\My projects\RGR\RGR\glut5.cpp(116,17): warning C4244: инициализация: преобразование "double" в "float", возможна потеря данных
+  RGR.vcxproj -> D:\My projects\RGR\x64\Debug\RGR.exe

@@ -1,5 +1,5 @@
-﻿#include <GL/glut.h>
-#include<math.h>
+﻿#include <GL/freeglut.h>
+#include <math.h>
 
 #define MAX_BUBBLES 100  // Максимальное количество пузырьков
 
