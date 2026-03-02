@@ -24,30 +24,19 @@ def build_project(sln_path):
     
     # Флаги для сборки: Релиз и 64-битная архитектура
     build_args_64 = ["/p:Configuration=Release", "/p:Platform=x64"]
-    build_args_86 = ["/p:Configuration=Release", "/p:Platform=x86"]
     
     try:
-        if "Fireworks" in sln_path or "Project1":
-            result = subprocess.run(
-                ["C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\MSBuild\\Current\\Bin\\MSBuild.exe", sln_path] + build_args_64,
-            )
-        else:
-            result = subprocess.run(
-                ["C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\MSBuild\\Current\\Bin\\MSBuild.exe", sln_path] + build_args_86,
-            )
+        result = subprocess.run(
+            ["C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\MSBuild\\Current\\Bin\\MSBuild.exe", sln_path] + build_args_64,
+        )
     except FileNotFoundError: 
-        try:
-            if "Fireworks" in sln_path:
+            try:
                 result = subprocess.run(
-                    ["C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\MSBuild\\Current\\Bin\\MSBuild.exe", sln_path] + build_args_64,
-            )
-            else:
-                result = subprocess.run(
-                    ["C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\MSBuild\\Current\\Bin\\MSBuild.exe", sln_path] + build_args_86,
-            )
-        except FileNotFoundError:
-            print("Ошибка: MSBuild не найден ни по одному из путей.")
-            return False
+                    ["C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\MSBuild.exe", sln_path] + build_args_64,
+                )
+            except FileNotFoundError:
+                print("Ошибка: MSBuild не найден ни по одному из путей.")
+                return False
 
     if result.returncode != 0:
         print("Ошибка сборки: \n")
@@ -77,4 +66,5 @@ while True:
 
         if build_project(project["sln"]):
             run_exe(project["exe"])
+
 
