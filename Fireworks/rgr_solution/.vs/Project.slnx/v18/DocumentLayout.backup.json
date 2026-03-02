@@ -1,29 +1,29 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\zilsg\\Yandex.Disk\\\u0423\u0447\u0451\u0431\u0430\\\u0418\u043D\u0444\u043E\u0440\u043C\u0430\u0442\u0438\u043A\u0430\\InformaticsCodebases\\CGW\\Project\\",
+  "WorkspaceRootPath": "C:\\Users\\zilsg\\Yandex.Disk\\\u0423\u0447\u0451\u0431\u0430\\2 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u041E\u0411\u0420\u041F\u041E\\lab1\\Fireworks\\rgr_solution\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4EF5ABEB-407D-40C5-A3CC-0BFD51B8895D}|Project.vcxproj|C:\\Users\\zilsg\\Yandex.Disk\\\u0423\u0447\u0451\u0431\u0430\\\u0418\u043D\u0444\u043E\u0440\u043C\u0430\u0442\u0438\u043A\u0430\\InformaticsCodebases\\CGW\\Project\\main.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{4EF5ABEB-407D-40C5-A3CC-0BFD51B8895D}|Project.vcxproj|C:\\Users\\zilsg\\Yandex.Disk\\\u0423\u0447\u0451\u0431\u0430\\2 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u041E\u0411\u0420\u041F\u041E\\lab1\\Fireworks\\rgr_solution\\main.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{4EF5ABEB-407D-40C5-A3CC-0BFD51B8895D}|Project.vcxproj|solutionrelative:main.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4EF5ABEB-407D-40C5-A3CC-0BFD51B8895D}|Project.vcxproj|C:\\Users\\zilsg\\Yandex.Disk\\\u0423\u0447\u0451\u0431\u0430\\\u0418\u043D\u0444\u043E\u0440\u043C\u0430\u0442\u0438\u043A\u0430\\InformaticsCodebases\\CGW\\Project\\utils.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{4EF5ABEB-407D-40C5-A3CC-0BFD51B8895D}|Project.vcxproj|C:\\Users\\zilsg\\Yandex.Disk\\\u0423\u0447\u0451\u0431\u0430\\2 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u041E\u0411\u0420\u041F\u041E\\lab1\\Fireworks\\rgr_solution\\utils.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{4EF5ABEB-407D-40C5-A3CC-0BFD51B8895D}|Project.vcxproj|solutionrelative:utils.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4EF5ABEB-407D-40C5-A3CC-0BFD51B8895D}|Project.vcxproj|C:\\Users\\zilsg\\Yandex.Disk\\\u0423\u0447\u0451\u0431\u0430\\\u0418\u043D\u0444\u043E\u0440\u043C\u0430\u0442\u0438\u043A\u0430\\InformaticsCodebases\\CGW\\Project\\render.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{4EF5ABEB-407D-40C5-A3CC-0BFD51B8895D}|Project.vcxproj|C:\\Users\\zilsg\\Yandex.Disk\\\u0423\u0447\u0451\u0431\u0430\\2 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u041E\u0411\u0420\u041F\u041E\\lab1\\Fireworks\\rgr_solution\\render.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{4EF5ABEB-407D-40C5-A3CC-0BFD51B8895D}|Project.vcxproj|solutionrelative:render.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4EF5ABEB-407D-40C5-A3CC-0BFD51B8895D}|Project.vcxproj|C:\\Users\\zilsg\\Yandex.Disk\\\u0423\u0447\u0451\u0431\u0430\\\u0418\u043D\u0444\u043E\u0440\u043C\u0430\u0442\u0438\u043A\u0430\\InformaticsCodebases\\CGW\\Project\\render.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{4EF5ABEB-407D-40C5-A3CC-0BFD51B8895D}|Project.vcxproj|C:\\Users\\zilsg\\Yandex.Disk\\\u0423\u0447\u0451\u0431\u0430\\2 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u041E\u0411\u0420\u041F\u041E\\lab1\\Fireworks\\rgr_solution\\render.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{4EF5ABEB-407D-40C5-A3CC-0BFD51B8895D}|Project.vcxproj|solutionrelative:render.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4EF5ABEB-407D-40C5-A3CC-0BFD51B8895D}|Project.vcxproj|C:\\Users\\zilsg\\Yandex.Disk\\\u0423\u0447\u0451\u0431\u0430\\\u0418\u043D\u0444\u043E\u0440\u043C\u0430\u0442\u0438\u043A\u0430\\InformaticsCodebases\\CGW\\Project\\world.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{4EF5ABEB-407D-40C5-A3CC-0BFD51B8895D}|Project.vcxproj|C:\\Users\\zilsg\\Yandex.Disk\\\u0423\u0447\u0451\u0431\u0430\\2 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u041E\u0411\u0420\u041F\u041E\\lab1\\Fireworks\\rgr_solution\\world.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{4EF5ABEB-407D-40C5-A3CC-0BFD51B8895D}|Project.vcxproj|solutionrelative:world.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4EF5ABEB-407D-40C5-A3CC-0BFD51B8895D}|Project.vcxproj|C:\\Users\\zilsg\\Yandex.Disk\\\u0423\u0447\u0451\u0431\u0430\\\u0418\u043D\u0444\u043E\u0440\u043C\u0430\u0442\u0438\u043A\u0430\\InformaticsCodebases\\CGW\\Project\\world.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{4EF5ABEB-407D-40C5-A3CC-0BFD51B8895D}|Project.vcxproj|C:\\Users\\zilsg\\Yandex.Disk\\\u0423\u0447\u0451\u0431\u0430\\2 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u041E\u0411\u0420\u041F\u041E\\lab1\\Fireworks\\rgr_solution\\world.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{4EF5ABEB-407D-40C5-A3CC-0BFD51B8895D}|Project.vcxproj|solutionrelative:world.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
@@ -44,50 +44,47 @@
               "$type": "Document",
               "DocumentIndex": 4,
               "Title": "world.c",
-              "DocumentMoniker": "C:\\Users\\zilsg\\Yandex.Disk\\\u0423\u0447\u0451\u0431\u0430\\\u0418\u043D\u0444\u043E\u0440\u043C\u0430\u0442\u0438\u043A\u0430\\InformaticsCodebases\\CGW\\Project\\world.c",
+              "DocumentMoniker": "C:\\Users\\zilsg\\Yandex.Disk\\\u0423\u0447\u0451\u0431\u0430\\2 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u041E\u0411\u0420\u041F\u041E\\lab1\\Fireworks\\rgr_solution\\world.c",
               "RelativeDocumentMoniker": "world.c",
-              "ToolTip": "C:\\Users\\zilsg\\Yandex.Disk\\\u0423\u0447\u0451\u0431\u0430\\\u0418\u043D\u0444\u043E\u0440\u043C\u0430\u0442\u0438\u043A\u0430\\InformaticsCodebases\\CGW\\Project\\world.c",
+              "ToolTip": "C:\\Users\\zilsg\\Yandex.Disk\\\u0423\u0447\u0451\u0431\u0430\\2 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u041E\u0411\u0420\u041F\u041E\\lab1\\Fireworks\\rgr_solution\\world.c",
               "RelativeToolTip": "world.c",
               "ViewState": "AgIAAGkAAAAAAAAAAAAiwHIAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2025-12-20T05:25:06.512Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-20T05:25:06.512Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "utils.h",
-              "DocumentMoniker": "C:\\Users\\zilsg\\Yandex.Disk\\\u0423\u0447\u0451\u0431\u0430\\\u0418\u043D\u0444\u043E\u0440\u043C\u0430\u0442\u0438\u043A\u0430\\InformaticsCodebases\\CGW\\Project\\utils.h",
+              "DocumentMoniker": "C:\\Users\\zilsg\\Yandex.Disk\\\u0423\u0447\u0451\u0431\u0430\\2 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u041E\u0411\u0420\u041F\u041E\\lab1\\Fireworks\\rgr_solution\\utils.h",
               "RelativeDocumentMoniker": "utils.h",
-              "ToolTip": "C:\\Users\\zilsg\\Yandex.Disk\\\u0423\u0447\u0451\u0431\u0430\\\u0418\u043D\u0444\u043E\u0440\u043C\u0430\u0442\u0438\u043A\u0430\\InformaticsCodebases\\CGW\\Project\\utils.h",
+              "ToolTip": "C:\\Users\\zilsg\\Yandex.Disk\\\u0423\u0447\u0451\u0431\u0430\\2 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u041E\u0411\u0420\u041F\u041E\\lab1\\Fireworks\\rgr_solution\\utils.h",
               "RelativeToolTip": "utils.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-12-20T05:25:50.165Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-20T05:25:50.165Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
               "Title": "render.h",
-              "DocumentMoniker": "C:\\Users\\zilsg\\Yandex.Disk\\\u0423\u0447\u0451\u0431\u0430\\\u0418\u043D\u0444\u043E\u0440\u043C\u0430\u0442\u0438\u043A\u0430\\InformaticsCodebases\\CGW\\Project\\render.h",
+              "DocumentMoniker": "C:\\Users\\zilsg\\Yandex.Disk\\\u0423\u0447\u0451\u0431\u0430\\2 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u041E\u0411\u0420\u041F\u041E\\lab1\\Fireworks\\rgr_solution\\render.h",
               "RelativeDocumentMoniker": "render.h",
-              "ToolTip": "C:\\Users\\zilsg\\Yandex.Disk\\\u0423\u0447\u0451\u0431\u0430\\\u0418\u043D\u0444\u043E\u0440\u043C\u0430\u0442\u0438\u043A\u0430\\InformaticsCodebases\\CGW\\Project\\render.h",
+              "ToolTip": "C:\\Users\\zilsg\\Yandex.Disk\\\u0423\u0447\u0451\u0431\u0430\\2 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u041E\u0411\u0420\u041F\u041E\\lab1\\Fireworks\\rgr_solution\\render.h",
               "RelativeToolTip": "render.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-12-20T05:25:50.824Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-20T05:25:50.824Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "main.c",
-              "DocumentMoniker": "C:\\Users\\zilsg\\Yandex.Disk\\\u0423\u0447\u0451\u0431\u0430\\\u0418\u043D\u0444\u043E\u0440\u043C\u0430\u0442\u0438\u043A\u0430\\InformaticsCodebases\\CGW\\Project\\main.c",
+              "DocumentMoniker": "C:\\Users\\zilsg\\Yandex.Disk\\\u0423\u0447\u0451\u0431\u0430\\2 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u041E\u0411\u0420\u041F\u041E\\lab1\\Fireworks\\rgr_solution\\main.c",
               "RelativeDocumentMoniker": "main.c",
-              "ToolTip": "C:\\Users\\zilsg\\Yandex.Disk\\\u0423\u0447\u0451\u0431\u0430\\\u0418\u043D\u0444\u043E\u0440\u043C\u0430\u0442\u0438\u043A\u0430\\InformaticsCodebases\\CGW\\Project\\main.c",
+              "ToolTip": "C:\\Users\\zilsg\\Yandex.Disk\\\u0423\u0447\u0451\u0431\u0430\\2 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u041E\u0411\u0420\u041F\u041E\\lab1\\Fireworks\\rgr_solution\\main.c",
               "RelativeToolTip": "main.c",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAwBIAAAA1AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
               "WhenOpened": "2025-12-20T05:24:38.393Z",
               "EditorCaption": ""
@@ -96,27 +93,25 @@
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "render.c",
-              "DocumentMoniker": "C:\\Users\\zilsg\\Yandex.Disk\\\u0423\u0447\u0451\u0431\u0430\\\u0418\u043D\u0444\u043E\u0440\u043C\u0430\u0442\u0438\u043A\u0430\\InformaticsCodebases\\CGW\\Project\\render.c",
+              "DocumentMoniker": "C:\\Users\\zilsg\\Yandex.Disk\\\u0423\u0447\u0451\u0431\u0430\\2 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u041E\u0411\u0420\u041F\u041E\\lab1\\Fireworks\\rgr_solution\\render.c",
               "RelativeDocumentMoniker": "render.c",
-              "ToolTip": "C:\\Users\\zilsg\\Yandex.Disk\\\u0423\u0447\u0451\u0431\u0430\\\u0418\u043D\u0444\u043E\u0440\u043C\u0430\u0442\u0438\u043A\u0430\\InformaticsCodebases\\CGW\\Project\\render.c",
+              "ToolTip": "C:\\Users\\zilsg\\Yandex.Disk\\\u0423\u0447\u0451\u0431\u0430\\2 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u041E\u0411\u0420\u041F\u041E\\lab1\\Fireworks\\rgr_solution\\render.c",
               "RelativeToolTip": "render.c",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2025-12-20T05:16:02.075Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-20T05:16:02.075Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
               "Title": "world.h",
-              "DocumentMoniker": "C:\\Users\\zilsg\\Yandex.Disk\\\u0423\u0447\u0451\u0431\u0430\\\u0418\u043D\u0444\u043E\u0440\u043C\u0430\u0442\u0438\u043A\u0430\\InformaticsCodebases\\CGW\\Project\\world.h",
+              "DocumentMoniker": "C:\\Users\\zilsg\\Yandex.Disk\\\u0423\u0447\u0451\u0431\u0430\\2 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u041E\u0411\u0420\u041F\u041E\\lab1\\Fireworks\\rgr_solution\\world.h",
               "RelativeDocumentMoniker": "world.h",
-              "ToolTip": "C:\\Users\\zilsg\\Yandex.Disk\\\u0423\u0447\u0451\u0431\u0430\\\u0418\u043D\u0444\u043E\u0440\u043C\u0430\u0442\u0438\u043A\u0430\\InformaticsCodebases\\CGW\\Project\\world.h",
+              "ToolTip": "C:\\Users\\zilsg\\Yandex.Disk\\\u0423\u0447\u0451\u0431\u0430\\2 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u041E\u0411\u0420\u041F\u041E\\lab1\\Fireworks\\rgr_solution\\world.h",
               "RelativeToolTip": "world.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-12-19T05:01:14.653Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-19T05:01:14.653Z"
             }
           ]
         }
