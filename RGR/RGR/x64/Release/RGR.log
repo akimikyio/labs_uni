@@ -1,9 +1,9 @@
 ﻿  glut5.cpp
-C:\Users\zilsg\Yandex.Disk\Учёба\2 семестр\ОБРПО\lab1\RGR\RGR\glut5.cpp(17,24): warning C4305: 'initializing': truncation from 'double' to 'float'
-C:\Users\zilsg\Yandex.Disk\Учёба\2 семестр\ОБРПО\lab1\RGR\RGR\glut5.cpp(43,34): warning C4305: 'argument': truncation from 'double' to 'float'
-C:\Users\zilsg\Yandex.Disk\Учёба\2 семестр\ОБРПО\lab1\RGR\RGR\glut5.cpp(116,17): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
-  Generating code
+C:\Users\user\Desktop\obrpo\labs_uni\RGR\RGR\glut5.cpp(17,24): warning C4305: инициализация: усечение из "double" в "float"
+C:\Users\user\Desktop\obrpo\labs_uni\RGR\RGR\glut5.cpp(43,34): warning C4305: аргумент: усечение из "double" в "float"
+C:\Users\user\Desktop\obrpo\labs_uni\RGR\RGR\glut5.cpp(129,17): warning C4244: инициализация: преобразование "double" в "float", возможна потеря данных
+  Создание кода
   Previous IPDB not found, fall back to full compilation.
-  All 90 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
-  Finished generating code
-  RGR.vcxproj -> C:\Users\zilsg\Yandex.Disk\Учёба\2 семестр\ОБРПО\lab1\RGR\x64\Release\RGR.exe
+  All 114 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Создание кода завершено
+  RGR.vcxproj -> C:\Users\user\Desktop\obrpo\labs_uni\RGR\x64\Release\RGR.exe

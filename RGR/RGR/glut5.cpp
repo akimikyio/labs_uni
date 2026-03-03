@@ -2,18 +2,18 @@
 #include <cmath>     
 #include <vector>    
 #include <cstdlib>  
-#include <ctime>     
+#include <ctime>   
+#include <algorithm>
 
 // ��������� ����
-const int WIDTH = 800;
-const int HEIGHT = 800;
+const int WIDTH = 700;
 
 // ����� pi
 constexpr double PI = 3.14159265358979323846;
 
 // ��������� �����
-const float LAMP_RADIUS = 100.0f;   // ������ ��������
-const float INSECT_SPEED = 150.0f;  // �������� ���������
+const float LAMP_RADIUS = 80.0f;   // ������ ��������
+const float INSECT_SPEED = 200.0f;  // �������� ���������
 const float ANGLE = PI / 3.0f; // ���� ����� ������������ � ���������
 const float GRAVITY = -400.0f; // ��������� ���������� �������
 const float DT = 0.016f;  // FPS �������� 60 
@@ -39,7 +39,7 @@ void spawnInsect() {
     Insect i;
 
     // ��������� ��������� ������� �� ����������
-    float r = randf(300.0f, 380.0f);
+    float r = randf(LAMP_RADIUS*2, WIDTH/2);
     float ang = randf(0.0f, 2.0f * PI);
 
     i.x = r * cos(ang);
@@ -57,6 +57,7 @@ void spawnInsect() {
 
     insects.push_back(i);
 }
+
 // ���������� ��������� ���� ���������
 void updateInsects() {
     for (auto& i : insects) {
@@ -79,9 +80,11 @@ void updateInsects() {
             }
 
             // ������������ ������� �����������
-            dx /= dist;
-            dy /= dist;
-
+            if (dist > 0.001f) {
+                dx /= dist;
+                dy /= dist;
+            }
+            
             // ���������������� ������
             float tx = -dy;
             float ty = dx;
@@ -90,8 +93,10 @@ void updateInsects() {
             float a = ANGLE * i.spin;
 
             // ��������
-            i.vx = INSECT_SPEED * (cos(a) * dx + sin(a) * tx);
-            i.vy = INSECT_SPEED * (cos(a) * dy + sin(a) * ty);
+            float vx_dir = cos(a) * dx - sin(a) * dy;
+            float vy_dir = sin(a) * dx + cos(a) * dy;
+            i.vx = INSECT_SPEED * vx_dir;
+            i.vy = INSECT_SPEED * vy_dir;
 
             // ��������� ��� ��� ��������
             i.vx += randf(-200.0f, 200.0f);
@@ -107,6 +112,14 @@ void updateInsects() {
         i.x += i.vx * DT;
         i.y += i.vy * DT;
     }
+    // �������� ���������
+    insects.erase(
+        std::remove_if(insects.begin(), insects.end(),
+            [](const Insect& i) {
+                return (i.y < -(WIDTH/2) || i.x < -(WIDTH/2) || i.x >  WIDTH/2 || i.y >  WIDTH/2);
+            }),
+        insects.end()
+    );
 }
 
 // ��������� ��������
@@ -143,7 +156,7 @@ void timer(int) {
     updateInsects();
 
     // ������������� ���������� ����� ���������
-    if (rand() % 20 == 0)
+    if (rand() % 10 == 0)
         spawnInsect();
 
     glutPostRedisplay();
@@ -157,16 +170,15 @@ void init() {
 
     glMatrixMode(GL_PROJECTION);
     glLoadIdentity();
-    gluOrtho2D(-400, 400, -400, 400);
+    gluOrtho2D(-(WIDTH/2), WIDTH / 2, -(WIDTH / 2), WIDTH / 2);
 }
 
-// ����� �����
 int main(int argc, char** argv) {
     srand(static_cast<unsigned>(time(nullptr)));
 
     glutInit(&argc, argv);
     glutInitDisplayMode(GLUT_DOUBLE | GLUT_RGB);
-    glutInitWindowSize(WIDTH, HEIGHT);
+    glutInitWindowSize(WIDTH, WIDTH);
     glutCreateWindow("Insects and Light");
 
     init();
