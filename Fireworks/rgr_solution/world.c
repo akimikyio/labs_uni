@@ -30,6 +30,10 @@ static void spawnFireball(void) {                       // функция добавления бо
 
     p.vx = 0.0f;                                       
     p.vy = 180.0f;                                      // частица летит вверх
+    
+    p.r = 1.0f;
+    p.g = 0.8f;
+    p.b = 0.2f;
 
     p.radius = 5.0f;                                    // начальный радиус
     p.life = 10.0f;                                     // время жизни
@@ -49,6 +53,10 @@ static void explode(float x, float y) {                     // функция взрыва бо
         s.type = PARTICLE_SPARK;                            // тип
         s.x = x;                                            // координата x
         s.y = y;                                            // координата y
+        s.r = randFloat(0.0f, 1.0f);
+        s.g = randFloat(0.0f, 1.0f);
+        s.b = randFloat(0.0f, 1.0f);
+
         s.vx = cosf(angle) * speed;                         // скорость по x
         s.vy = sinf(angle) * speed;                         // скорость по y
         s.radius = 2.0f;                                    // радиус
