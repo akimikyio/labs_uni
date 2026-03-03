@@ -1,0 +1,9 @@
+﻿  main.c
+  render.c
+  world.c
+  Generating Code...
+C:\Users\zilsg\Yandex.Disk\Учёба\Информатика\InformaticsCodebases\CGW\Project\render.c(11,39): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\zilsg\Yandex.Disk\Учёба\Информатика\InformaticsCodebases\CGW\Project\render.c(28,32): warning C4244: 'function': conversion from 'float' to 'int', possible loss of data
+C:\Users\zilsg\Yandex.Disk\Учёба\Информатика\InformaticsCodebases\CGW\Project\render.c(28,48): warning C4244: 'function': conversion from 'float' to 'int', possible loss of data
+C:\Users\zilsg\Yandex.Disk\Учёба\Информатика\InformaticsCodebases\CGW\Project\render.c(28,64): warning C4244: 'function': conversion from 'float' to 'int', possible loss of data
+  Project.vcxproj -> C:\Users\zilsg\Yandex.Disk\Учёба\Информатика\InformaticsCodebases\CGW\Project\x64\Debug\Project.exe

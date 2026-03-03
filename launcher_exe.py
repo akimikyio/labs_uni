@@ -18,7 +18,7 @@ projects = {
 
 
 def run_exe(exe_path):
-    subprocess.run([exe_path])
+    subprocess.run(exe_path)
 
 while True:
     print("\n==== Файлы АВТ-552 ====")
