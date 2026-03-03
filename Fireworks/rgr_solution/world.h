@@ -18,6 +18,7 @@ typedef enum {                              // определение типов частиц
 typedef struct {                            // определение параметров любой частицы
     ParticleType type;                      // тип частицы
 
+    float r, g, b;                          // цвета
     float x, y;                             // координаты
     float vx, vy;                           // горизонтальные и вертикальные скорости
     float radius;                           // радиус
