@@ -17,6 +17,7 @@ const float INSECT_SPEED = 200.0f;  // �������� ������
 const float ANGLE = PI / 3.0f; // ���� ����� ������������ � ���������
 const float GRAVITY = -400.0f; // ��������� ���������� �������
 const float DT = 0.016f;  // FPS �������� 60 
+int dead = 0; //смерти мух
 
 // ���������
 struct Insect {
@@ -120,6 +121,7 @@ void updateInsects() {
             }),
         insects.end()
     );
+    dead++;
 }
 
 // ��������� ��������
