@@ -23,7 +23,7 @@ void drawWorld(void) {								// функция отрисовки мира
         if (particles[i].type == PARTICLE_FIREBALL)	// выбираем цвет для отрисовки разных типов частиц
             glColor3f(1.0f, 0.8f, 0.2f);
         else
-            glColor3f(1.0f, 1.0f, 1.0f);
+            glColor3f(particles[i].r, particles[i].g, particles[i].b);
 
         drawCircle(particles[i].x, particles[i].y, particles[i].radius); // непосредственно рисуем частицу
     }
