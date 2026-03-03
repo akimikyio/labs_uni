@@ -21,16 +21,24 @@ float fish1_x = 0.0f;      // Позиция X
 float fish1_y = 0.0f;      // Позиция Y
 float fish1_speed = 0.015f; // Скорость движения
 int fish1_direction = 1;   // Направление: 1 - вправо, -1 - влево
-float fish1_body_color[3] = { 1.0f, 0.2f, 0.8f }; // Розовый цвет
-float fish1_tail_color[3] = { 1.0f, 0.3f, 0.9f }; // Светло-розовый
+float fish1_body_color[3] = { 0.75f, 1.0f, 0.6f };
+float fish1_tail_color[3] = {0.75f, 0.9f, 0.61f }; 
 
 // 2 ribka
 float fish2_x = -0.3f;  // Начальная позиция другая
 float fish2_y = -0.1f;
 float fish2_speed = 0.005f; // Другая скорость
 int fish2_direction = -1;   // Начинает плыть влево
-float fish2_body_color[3] = { 0.0f, 0.8f, 1.0f }; // Голубой
-float fish2_tail_color[3] = { 0.2f, 0.9f, 1.0f };
+float fish2_body_color[3] = { 0.7f, 0.5f, 0.0f }; 
+float fish2_tail_color[3] = { 0.7f, 0.5f, 0.0f };
+
+//ribka 3
+float fish3_x = 0.04f;      // Позиция X
+float fish3_y = 0.1f;      // Позиция Y
+float fish3_speed = 0.0005f; // Скорость движения
+int fish3_direction = 1;   // Направление: 1 - вправо, -1 - влево
+float fish3_body_color[3] = { 0.3f, 0.24f, 1.0f };
+float fish3_tail_color[3] = { 0.35f, 0.2f, 0.9f };
 
 //движение рыбёхи
 void UpdateSingleFish(float* fish_x, float* fish_y, float speed, int* direction) {
@@ -92,6 +100,7 @@ void DrawSingleFish(float body_color[3], float tail_color[3], int direction) {
 void UpdateFish() {
     UpdateSingleFish(&fish1_x, &fish1_y, fish1_speed, &fish1_direction);
     UpdateSingleFish(&fish2_x, &fish2_y, fish2_speed, &fish2_direction);
+    UpdateSingleFish(&fish3_x, &fish3_y, fish3_speed, &fish3_direction);
 }
 
 //объявление пузырьков
@@ -285,6 +294,12 @@ void Draw(void)
     DrawSingleFish(fish2_body_color, fish2_tail_color, fish2_direction);
     glPopMatrix();
 
+    // Рисуем вторую рыбку
+    glPushMatrix();
+    glTranslatef(fish3_x, fish3_y, 0.0f);
+    DrawSingleFish(fish3_body_color, fish3_tail_color, fish3_direction);
+    glPopMatrix();
+
     // Рисуем все активные пузырьки
     for (int i = 0; i < MAX_BUBBLES; i++) {
         if (bubble_active[i]) {
@@ -308,7 +323,7 @@ int main(int argc, char* argv[])
     glutInitWindowPosition(0, 0);
 
     glutInitDisplayMode(GLUT_RGB | GLUT_DOUBLE);
-    glutCreateWindow("Аквариум с рыбкой");
+    glutCreateWindow("Fish");
 
     glutReshapeFunc(Reshape);
     glutDisplayFunc(Draw);
