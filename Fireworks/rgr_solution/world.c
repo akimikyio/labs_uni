@@ -44,7 +44,9 @@ static void spawnFireball(void) {                       // функция добавления бо
 
 static void explode(float x, float y) {                     // функция взрыва большой частицы
     const int count = 40;                                   // количество вылетающих частиц
-
+    float r = randFloat(0.0f, 1.0f);
+    float g = randFloat(0.0f, 1.0f);
+    float b = randFloat(0.0f, 1.0f);
     for (int i = 0; i < count; ++i) {                       // рассчитываем параметры для каждой из частиц
         float angle = randFloat(0.0f, 2.0f * 3.1415926f);   // угол
         float speed = randFloat(60.0f, 300.0f);             // скорость
@@ -53,9 +55,9 @@ static void explode(float x, float y) {                     // функция взрыва бо
         s.type = PARTICLE_SPARK;                            // тип
         s.x = x;                                            // координата x
         s.y = y;                                            // координата y
-        s.r = randFloat(0.0f, 1.0f);
-        s.g = randFloat(0.0f, 1.0f);
-        s.b = randFloat(0.0f, 1.0f);
+        s.r = r;
+        s.g = g;
+        s.b = b;
 
         s.vx = cosf(angle) * speed;                         // скорость по x
         s.vy = sinf(angle) * speed;                         // скорость по y
