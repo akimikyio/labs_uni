@@ -21,16 +21,16 @@ float fish1_x = 0.0f;      // Позиция X
 float fish1_y = 0.0f;      // Позиция Y
 float fish1_speed = 0.015f; // Скорость движения
 int fish1_direction = 1;   // Направление: 1 - вправо, -1 - влево
-float fish1_body_color[3] = { 1.0f, 0.2f, 0.8f }; // Розовый цвет
-float fish1_tail_color[3] = { 1.0f, 0.3f, 0.9f }; // Светло-розовый
+float fish1_body_color[3] = { 1.0f, 1.0f, 1.0f };
+float fish1_tail_color[3] = { 1.0f, 1.0f, 1.0f }; 
 
 // 2 ribka
 float fish2_x = -0.3f;  // Начальная позиция другая
 float fish2_y = -0.1f;
 float fish2_speed = 0.005f; // Другая скорость
 int fish2_direction = -1;   // Начинает плыть влево
-float fish2_body_color[3] = { 0.0f, 0.8f, 1.0f }; // Голубой
-float fish2_tail_color[3] = { 0.2f, 0.9f, 1.0f };
+float fish2_body_color[3] = { 0.7f, 0.5f, 0.0f }; 
+float fish2_tail_color[3] = { 0.7f, 0.5f, 0.0f };
 
 //движение рыбёхи
 void UpdateSingleFish(float* fish_x, float* fish_y, float speed, int* direction) {
@@ -308,7 +308,7 @@ int main(int argc, char* argv[])
     glutInitWindowPosition(0, 0);
 
     glutInitDisplayMode(GLUT_RGB | GLUT_DOUBLE);
-    glutCreateWindow("Аквариум с рыбкой");
+    glutCreateWindow("Fish");
 
     glutReshapeFunc(Reshape);
     glutDisplayFunc(Draw);
