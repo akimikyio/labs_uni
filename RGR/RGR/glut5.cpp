@@ -4,6 +4,7 @@
 #include <cstdlib>  
 #include <ctime>   
 #include <algorithm>
+#include <stdio.h>
 
 // ��������� ����
 const int WIDTH = 700;
@@ -59,8 +60,20 @@ void spawnInsect() {
     insects.push_back(i);
 }
 
+void renderString(float x, float y, void* font, const char* string) {
+    glRasterPos2f(x, y); 
+    for (const char* c = string; *c != '\0'; c++) {
+        glutBitmapCharacter(font, *c); 
+    }
+}
+
 // ���������� ��������� ���� ���������
 void updateInsects() {
+    char buffer[50];
+    sprintf_s(buffer, "Dead counter: %d\n", dead);
+    printf(buffer);
+    glColor3f(0.0, 0.0, 0.0);
+    renderString(100.0, 50.0, GLUT_BITMAP_HELVETICA_18, buffer);
     for (auto& i : insects) {
 
         // ���� � ��������
@@ -113,6 +126,8 @@ void updateInsects() {
         i.x += i.vx * DT;
         i.y += i.vy * DT;
     }
+
+    int last = insects.size();
     // �������� ���������
     insects.erase(
         std::remove_if(insects.begin(), insects.end(),
@@ -121,7 +136,7 @@ void updateInsects() {
             }),
         insects.end()
     );
-    dead++;
+    dead += last - insects.size();
 }
 
 // ��������� ��������
