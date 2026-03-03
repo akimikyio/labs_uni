@@ -19,7 +19,7 @@ int bubble_timer = 0;
 //ribka
 float fish1_x = 0.0f;      // Позиция X
 float fish1_y = 0.0f;      // Позиция Y
-float fish1_speed = 0.015f; // Скорость движения
+float fish1_speed = 0.003f; // Скорость движения
 int fish1_direction = 1;   // Направление: 1 - вправо, -1 - влево
 float fish1_body_color[3] = { 1.0f, 0.2f, 0.8f }; // Розовый цвет
 float fish1_tail_color[3] = { 1.0f, 0.3f, 0.9f }; // Светло-розовый
@@ -48,7 +48,7 @@ void UpdateSingleFish(float* fish_x, float* fish_y, float speed, int* direction)
     }
 
     // Немного изменяем Y-координату для эффекта плавания
-    *fish_y = 0.1f * sin(*fish_x * 10.0f);
+    *fish_y = 0.2f * sin(*fish_x * 9.0f);
 }
 
 //отрисовка рыбки
@@ -66,16 +66,16 @@ void DrawSingleFish(float body_color[3], float tail_color[3], int direction) {
     glVertex2f(0.0f, 0.0f);
     for (int i = 0; i <= 360; i += 10) {
         float angle = i * 3.14159f / 180.0f;
-        glVertex2f(cos(angle) * 0.08f, sin(angle) * 0.04f);
+        glVertex2f(cos(angle) * 0.1f, sin(angle) * 0.03f);
     }
     glEnd();
 
     // Хвост рыбки
     glColor3fv(tail_color);
     glBegin(GL_TRIANGLES);
-    glVertex2f(-0.08f, 0.0f);
-    glVertex2f(-0.15f, 0.05f);
-    glVertex2f(-0.15f, -0.05f);
+    glVertex2f(-0.095f, 0.0f);
+    glVertex2f(-0.13f, 0.05f);
+    glVertex2f(-0.13f, -0.05f);
     glEnd();
 
     // Глаз рыбки
